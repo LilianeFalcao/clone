@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.50rem;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1f22;
+}
+img{
+    width: 200px;
+    background-color: #36393f;
+    padding: 3px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+a{
+    color: #6275bb;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    width: 786px;
+    display: flex;
+    background-color: #36393f;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 9px;
+}
+.esquerda{
+    width: 100%;
+    margin: 75px;
+}
+.esquerda .form{
+    display: flex;
+    flex-direction: column;
+}
+.esquerda .header{
+    text-align: center;
+}
+.esquerda .header h2{
+    margin-bottom: 5px;
+}
+.esquerda .header p{
+    margin-bottom: 15px;
+    color: rgb(182, 182, 182);
+    font-size: .95rem;
+}
+.esquerda .form label{
+    font-size: .9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: rgb(182, 182, 182);
+}
+.esquerda .form input{
+    height: 35px;
+    border-radius: 5px;
+    background-color: #313339;
+    color: whitesmoke;
+    outline: none;
+    border: 1px solid rgb(35, 35, 35);
+    font-size: 1.1rem;
+    padding: 0 10px;
+    margin-bottom: 3px;
+}
+.esquerda .form input:focus{
+    border: 1px solid #6275bb;
+}
+.esquerda .form span{
+    letter-spacing: -.2px;
+    margin-bottom: 20px;
+    font-size: .9rem;
+}
+.esquerda .form button{
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #6275bb;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.esquerda .form button:hover{
+    background-color: #50609b;
+}
+.esquerda .form .singin{
+    font-size: .9rem;
+    color: rgb(182, 182, 182);
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.direita h2{
+    margin-bottom: 10px;
+}
+.direita p{
+    font-size: .95rem;
+    color: rgb(182, 182, 182);
+}
